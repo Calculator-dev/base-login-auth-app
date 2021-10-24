@@ -30,7 +30,7 @@ export default function Header() {
                 <Typography variant="h6" component="div" >
                     Base Login
                 </Typography>
-                <Grid sm></Grid>
+                <Grid item sm></Grid>
                 {!user ? <Button color="primary" variant="contained" onClick={showLoginModal}>Login</Button> :
                     <Button color="error" variant="contained" onClick={logOut}>Logout</Button>}
                 <Button color="primary" variant="outlined" onClick={register} style={{ marginLeft: "10px" }}>Register</Button>
