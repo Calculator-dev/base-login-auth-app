@@ -16,9 +16,7 @@ export default function Header() {
         sessionStorage.removeItem("SavedToken")
     }
 
-    setTimeout(() => {
-        logOut();
-    }, 1200000);
+
 
     function register() {
         dispatch(baseLoginActions.setModal({ login: false, register: true }))
